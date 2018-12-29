@@ -1,0 +1,8 @@
+*.egg-info
+*.pyc
+/demo/*.html
+/.coverage
+/.pytest_cache
+/.tox
+/index.html
+/venv*
