@@ -38,7 +38,7 @@ The colors can be tweaked using the sphinx setting (in `conf.py`)
 `pygments_pre_commit_ansi_colors`:
 
 ```python
-pygments_pytest_ansi_colors = {
+pygments_pre_commit_ansi_colors = {
     'Black': '#2e3436',
     'Cyan': '#06989a',
     'Green': '#4e9a06',
