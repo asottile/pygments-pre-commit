@@ -10,7 +10,7 @@ matrix:
             python: pypy-5.7.1
         -   env:
             -   TOXENV=push
-            -   secure: "Pc/ej/mJ6xdfPPalNPT1cEW7qiWCVa/DSo2vhPkVfVnytdYlZ1OamWwLf8sKvZ6+Bus1uvI5UFMovDkBjAqMr54xqvYhUCsiLGRApWMOJ4HLOSVulYXeLYsoamCfb9SH/3kjTupMCJzI5Ud9T57/St4GFqnEx08gWK7Jim7oX5rGotPOlpk6DD4Tz0/PGV/4eXY1Dr8uZrS4Hf47XKfiTIG0MxMh8GxuSiU2rZyKE/7brlcTV9s1llEtXOVbAz3cqtBsND2XCUpxZVBME2FJHp1g2b846IodSttQi6k8CCV94LIAtAMkNvyuAaB9tXrg/MgJbRxmYokgia43HYzgSMCPOcuDxeEZ/efhtPeJuO4iH2A49FEPvBoWhPgbbB+6wtdsDZAlokGHoOvYCWk3U0BZie4gq4Tm3u0wFOjo8L003NvtkCFlRQij9O/Ve/4c+KUUqsHs2cml2d7riOA/ZKVbwcAc+nX4n8i/UbZD2tFsbRaN6imFy7RREOvI2Idw2NQaXjiGEMMkObQXrrrDUkarICVi+4ugmQ57WxVl/fR457Xg1zJIz2VcTD5kgSGAPfPlrYx2xnR5yILYiaWiLqQ1rhFKQZ0rwOZ8Oiqk8nPXkSyXABr9B8PhCFJGGKJIqDI39Qe6XCXAN3GMH2zVuUDfgZCtdQ8KtM1Qg71IR4g="
+            -   secure: "Loi41DMkDbsjgIgeViKHTG7Wuw6m2vksNG3EodtrKvqoDT1ZtDy/upG/7yYArVQ98R+jX09nYAvV8YcqHAGhpMNiYapPqqvhC2rTP+coJNtRZPTIAGgQVmAQeYD9Qy4/+xNjAFCltn+pFE+5JnqyF4czbHqi3qQ+m03hGZPKhx2FHLrj32VbtxvrYSRiiocgqAropqG8gKAt3mit9Un5nYUtwlr89OaaQsc71e0PMSoL5dVDbmcn6WzaA7NkpHYOKjUFicziNK5wsRF0j7emEj5ZVnADYf7YU3Fs9WHgEPBZNZ3XK5F3mYDzvVHWN2+EY7eWyCvb30K3Mx2EaBgpimkVYU44d2R1ca/di96I6XmlEsImcOLTmF+pABhU8jZXhWiW+Znzj3iuInmAEaeNeisl2TMz3VYdDxRaTCPJXpICmEiJsX+ciei805Yq7rxqoo/YfkXqHdUMBw71exSTLHFgAm0sgEdtd0mJe1v5O+r3ACCS7r/FvwkT7GW+HFs1pnv/5AlAEuND+FPaHnqVdWlxaf1QN8oUR01GG/hR3nb7JDX60gJkKhHf7iS91ysjE9qq9SYWVkb2IlCGQOmaHQumuOeBAk/1b34Bg2o0EyWMJgyTHeGlpp6mXePjFQzqN47dKSP3Rp6IK0U+Z6D/qpvQpxGPXZqdGg/uvm6n9FI="
             python: 3.6
 install: pip install coveralls tox
 script: tox
