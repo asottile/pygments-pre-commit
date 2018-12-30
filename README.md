@@ -7,6 +7,7 @@ pygments-pre-commit
 A pygments lexer for pre-commit output
 
 See [some demos](https://asottile.github.io/pygments-pre-commit)!
+Or [see it in action on pre-commit.com](https://pre-commit.com/#usage).
 
 ## Installation
 
