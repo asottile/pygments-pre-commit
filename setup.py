@@ -4,7 +4,7 @@ setup(
     name='pygments_pre_commit',
     description='A pygments lexer for pre-commit output.',
     url='https://github.com/asottile/pygments-pre-commit',
-    version='0.0.0',
+    version='1.0.0',
     author='Anthony Sottile',
     author_email='asottile@umich.edu',
     classifiers=[
