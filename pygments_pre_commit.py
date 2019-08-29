@@ -16,9 +16,9 @@ class PreCommitLexer(pygments.lexer.RegexLexer):
         'root': [
             (r'(?<=\.\.\.)Failed$', Color.BGRed),
             (r'(?<=\.\.\.)Passed$', Color.BGGreen),
-            (r'(?<=\.\.\.)Skipped$', Color.BlackBGYellow),
-            (r'(?<=\.\.\.\(no files to check\))Skipped$', Color.BlackBGCyan),
-            (r'^\[WARNING\]', Color.BlackBGYellow),
+            (r'(?<=\.\.\.)Skipped$', Color.Black.BGYellow),
+            (r'(?<=\.\.\.\(no files to check\))Skipped$', Color.Black.BGCyan),
+            (r'^\[WARNING\]', Color.Black.BGYellow),
             (r'^\[ERROR\]', Color.BGRed),
             (r'.', pygments.token.Text),  # prevent error tokens
         ],
@@ -33,8 +33,8 @@ COLORS = {
 STYLESHEET = '''\
 .-Color-BGRed{{ background-color: {Red}; }}
 .-Color-BGGreen{{ background-color: {Green}; }}
-.-Color-BlackBGYellow{{ background-color: {Yellow}; color: {Black}; }}
-.-Color-BlackBGCyan{{ background-color: {Cyan}; color: {Black}; }}
+.-Color-Black.BGYellow{{ background-color: {Yellow}; color: {Black}; }}
+.-Color-Black.BGCyan{{ background-color: {Cyan}; color: {Black}; }}
 '''
 
 
