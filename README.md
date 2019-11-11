@@ -1,5 +1,6 @@
-[![Build Status](https://travis-ci.org/asottile/pygments-pre-commit.svg?branch=master)](https://travis-ci.org/asottile/pygments-pre-commit)
-[![Coverage Status](https://coveralls.io/repos/github/asottile/pygments-pre-commit/badge.svg?branch=master)](https://coveralls.io/github/asottile/pygments-pre-commit?branch=master)
+[![Build Status](https://dev.azure.com/asottile/asottile/_apis/build/status/asottile.pygments-pre-commit?branchName=master)](https://dev.azure.com/asottile/asottile/_build/latest?definitionId=46&branchName=master)
+[![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/asottile/asottile/46/master.svg)](https://dev.azure.com/asottile/asottile/_build/latest?definitionId=46&branchName=master)
+[![Build Status](https://github.com/asottile/pygments-pre-commit/workflows/deploy/badge.svg)](https://github.com/asottile/pygments-pre-commit/actions)
 
 pygments-pre-commit
 ===================
