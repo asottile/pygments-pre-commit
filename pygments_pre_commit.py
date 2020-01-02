@@ -33,8 +33,8 @@ COLORS = {
 STYLESHEET = '''\
 .-Color-BGRed{{ background-color: {Red}; }}
 .-Color-BGGreen{{ background-color: {Green}; }}
-.-Color-Black.BGYellow{{ background-color: {Yellow}; color: {Black}; }}
-.-Color-Black.BGCyan{{ background-color: {Cyan}; color: {Black}; }}
+.-Color-Black-BGYellow{{ background-color: {Yellow}; color: {Black}; }}
+.-Color-Black-BGCyan{{ background-color: {Cyan}; color: {Black}; }}
 '''
 
 
