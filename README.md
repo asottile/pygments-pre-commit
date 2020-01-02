@@ -45,5 +45,6 @@ pygments_pre_commit_ansi_colors = {
     'Green': '#4e9a06',
     'Red': '#c00',
     'Yellow': '#c4A000',
+    'Faint': '#ccc',
 }
 ```
