@@ -24,7 +24,8 @@ This library provides a pygments lexer called `pre-commit`.
     $ pre-commit run
     passing..................................................................Passed
     failing..................................................................Failed
-    hookid: failing
+    - hook id: failing
+    - exit code: 1
 
     ['.pre-commit-config.yaml', 'a']
 
