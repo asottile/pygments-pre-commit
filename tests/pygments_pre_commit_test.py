@@ -50,11 +50,11 @@ def compare(request, *args, **kwargs):
     ansi = highlight(ANSI_LEXER, out)
     pre_commit = highlight(LEXER, uncolor(out))
 
-    fname = '{}_ansi.html'.format(request.node.name)
+    fname = f'{request.node.name}_ansi.html'
     with open(os.path.join(DEMO_DIR, fname), 'w') as f:
         f.write(ansi)
 
-    fname = '{}_pre_commit.html'.format(request.node.name)
+    fname = f'{request.node.name}_pre_commit.html'
     with open(os.path.join(DEMO_DIR, fname), 'w') as f:
         f.write(pre_commit)
 

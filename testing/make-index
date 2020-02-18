@@ -1,6 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import os
-
 
 HTML = '''\
 <!doctype html>
@@ -11,13 +10,14 @@ HTML = '''\
 '''
 
 
-def main():
+def main() -> int:
     links = [
-        '<li><a href="demo/{filename}">{filename}</a></li>'.format(filename=f)
+        f'<li><a href="demo/{f}">{f}</a></li>'
         for f in sorted(os.listdir('demo')) if f.endswith('_pre_commit.html')
     ]
     with open('index.html', 'w') as f:
-        f.write(HTML.format('<ul>{}</ul>'.format(''.join(links))))
+        f.write(HTML.format(f'<ul>{"".join(links)}</ul>'))
+    return 0
 
 
 if __name__ == '__main__':
