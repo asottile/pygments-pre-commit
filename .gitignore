@@ -1,8 +1,9 @@
 *.egg-info
 *.pyc
-/demo/*.html
 /.coverage
+/.mypy_cache
 /.pytest_cache
 /.tox
+/demo/*.html
 /index.html
 /venv*
