@@ -47,6 +47,8 @@ def compare(request, *args, **kwargs):
     proc = subprocess.Popen(cmd, **kwargs)
     out = proc.communicate()[0].decode()
 
+    assert 'No module named pre_commit' not in out
+
     ansi = highlight(ANSI_LEXER, out)
     pre_commit = highlight(LEXER, uncolor(out))
 
