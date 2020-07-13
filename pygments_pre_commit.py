@@ -71,7 +71,7 @@ def setup(app: Any) -> None:  # pragma: no cover (sphinx)
         with open(path, 'w') as f:
             f.write(stylesheet(app.config.pygments_pre_commit_ansi_colors))
 
-    app.require_sphinx('1.0')
+    app.require_sphinx('1.8')
     app.add_config_value('pygments_pre_commit_ansi_colors', {}, 'html')
-    app.add_stylesheet('pygments_pre_commit.css')
+    app.add_css_file('pygments_pre_commit.css')
     app.connect('build-finished', copy_stylesheet)
