@@ -1,8 +1,8 @@
+from __future__ import annotations
+
 import os.path
 import re
 from typing import Any
-from typing import Dict
-from typing import Optional
 
 import pygments.lexer
 import pygments.token
@@ -52,7 +52,7 @@ STYLESHEET = '''\
 '''
 
 
-def stylesheet(colors: Optional[Dict[str, str]] = None) -> str:
+def stylesheet(colors: dict[str, str] | None = None) -> str:
     colors = colors or {}
     assert set(colors) <= set(COLORS), set(colors) - set(COLORS)
     colors = dict(COLORS, **colors)
@@ -60,7 +60,7 @@ def stylesheet(colors: Optional[Dict[str, str]] = None) -> str:
 
 
 def setup(app: Any) -> None:  # pragma: no cover (sphinx)
-    def copy_stylesheet(app: Any, exception: Optional[BaseException]) -> None:
+    def copy_stylesheet(app: Any, exception: BaseException | None) -> None:
         if exception:
             return
 
