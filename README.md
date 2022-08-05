@@ -13,7 +13,9 @@ Or [see it in action on pre-commit.com](https://pre-commit.com/#usage).
 
 ## Installation
 
-`pip install pygments-pre-commit`
+```bash
+pip install pygments-pre-commit
+```
 
 ## Usage
 
