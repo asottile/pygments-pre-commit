@@ -1,5 +1,4 @@
-[![Build Status](https://dev.azure.com/asottile/asottile/_apis/build/status/asottile.pygments-pre-commit?branchName=main)](https://dev.azure.com/asottile/asottile/_build/latest?definitionId=46&branchName=main)
-[![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/asottile/asottile/46/main.svg)](https://dev.azure.com/asottile/asottile/_build/latest?definitionId=46&branchName=main)
+[![build status](https://github.com/asottile/pygments-pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/pygments-pre-commit/actions/workflows/main.yml)
 [![Build Status](https://github.com/asottile/pygments-pre-commit/workflows/deploy/badge.svg)](https://github.com/asottile/pygments-pre-commit/actions)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/asottile/pygments-pre-commit/main.svg)](https://results.pre-commit.ci/latest/github/asottile/pygments-pre-commit/main)
 
