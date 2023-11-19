@@ -1,5 +1,5 @@
 [![build status](https://github.com/asottile/pygments-pre-commit/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/pygments-pre-commit/actions/workflows/main.yml)
-[![Build Status](https://github.com/asottile/pygments-pre-commit/workflows/deploy/badge.svg)](https://github.com/asottile/pygments-pre-commit/actions)
+[![Build Status](https://github.com/asottile/pygments-pre-commit/actions/workflows/deploy.yml/badge.svg)](https://github.com/asottile/pygments-pre-commit/actions)
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/asottile/pygments-pre-commit/main.svg)](https://results.pre-commit.ci/latest/github/asottile/pygments-pre-commit/main)
 
 pygments-pre-commit
